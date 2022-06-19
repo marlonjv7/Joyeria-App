@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F8F3E9;
+}
+
+
+h1 {
+    font-size: 90px;
+}
+
+.oroGol h3{
+   font-size: 18px !important;
+}
+
+.oroGol p{
+    font-size: 16px !important;
+    width: 220px;
+ }
+
+ .CARDS {
+    margin-top: 150px !important;
+
+ }
+
+ .CARDS h2{
+    font-size: 48px !important;
+ }
+
+ .CARDS p{
+    font-size: 14px !important;
+}
+
+.CardsTitle{
+    width: 400px !important;
+}
+
+
+.car {
+    width: 1080px;
+    height: 570px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CARDBG{
+    background-color: #F8F3E9;
+}
+
+.REVERSE:nth-child(even)> section{
+    order: -1
+  }
